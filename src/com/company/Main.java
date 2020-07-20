@@ -63,12 +63,28 @@ public class Main {
 //        System.out.println(SumOdd.sumOdd(100, 1000));
 
 
-        System.out.println(NumberPalindrome.isPalindrome(-1221));
-        System.out.println(NumberPalindrome.isPalindrome(707));
-        System.out.println(NumberPalindrome.isPalindrome(11212));
+//        System.out.println(NumberPalindrome.isPalindrome(-1221));
+//        System.out.println(NumberPalindrome.isPalindrome(707));
+//        System.out.println(NumberPalindrome.isPalindrome(11212));
 
 
+//        System.out.println(FirstAndLastDigit.sumFirstAndLastDigit(252));
+//        System.out.println(FirstAndLastDigit.sumFirstAndLastDigit(257));
+//        System.out.println(FirstAndLastDigit.sumFirstAndLastDigit(0));
+//        System.out.println(FirstAndLastDigit.sumFirstAndLastDigit(5));
+//        System.out.println(FirstAndLastDigit.sumFirstAndLastDigit(-10));
 
+
+//        System.out.println(EvenDigitSum.getEvenDigitSum(123456789));
+//        System.out.println(EvenDigitSum.getEvenDigitSum(252));
+//        System.out.println(EvenDigitSum.getEvenDigitSum(-22));
+//        System.out.println(EvenDigitSum.getEvenDigitSum(468442548));
+
+
+        System.out.println(SharedDigit.hasSharedDigit(12, 23));
+        System.out.println(SharedDigit.hasSharedDigit(9, 99));
+        System.out.println(SharedDigit.hasSharedDigit(15, 55));
+        System.out.println(SharedDigit.hasSharedDigit(14, 55));
 
     }
 
