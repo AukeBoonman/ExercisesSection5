@@ -54,17 +54,19 @@ public class ReadingUserInput {
 
 
             System.out.println("Enter number #" + nextNumber + ": ");
-
             boolean hasNextInt = scanner.hasNextInt();
             if (hasNextInt) {
 
                 int number = scanner.nextInt();
+
                 sum += number;
                 nextNumber++;
 
             } else {
                 System.out.println("Invalid value");
+
             }
+            scanner.nextLine();
         }
         System.out.println("The sum is " + sum + ".");
 
